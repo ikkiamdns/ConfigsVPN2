@@ -1,1 +1,135 @@
-
+{
+   "Version":"1.0.0",
+   "ReleaseNotes":"NUEVA ACTUALIZACIÓN DISPONIBLE",
+   "UrlUpdate":"https://raw.githubusercontent.com/ikkiamdns/ConfigsVPN2/main/json",
+   "Sms":"http://vip.mscperu.ste/sms.php",
+   "EmailFeedback":"mscperu5@gmail.com",
+   "UrlContato":"https://api.whatsapp.com/send?phone=51995307963&text=Hola%20IKKI",
+   "UrlTermos":"https://api.whatsapp.com/send?phone=51995307963&text=Hola%20IKKI",
+   "CheckUser":"true",
+   "UdpPort":"7300",
+   "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    }
+  ],
+   "Servers":[
+      {
+         "Name":"IKKI - PREMIUM| 01",
+         "TYPE":"premium",
+         "FLAG":"us.png",
+         "ServerIP":"164.92.132.74",
+         "CheckUser":"http://usermsc.mscperu.store:8880/checkUser",
+         "ServerPort":"22",
+         "SSLPort":"443",
+         "USER":"",
+         "PASS":""
+      },
+      {
+         "Name":"IKKI - PREMIUM | 02",
+         "TYPE":"premium",
+         "FLAG":"br.png",
+         "ServerIP":"164.92.132.74",
+         "CheckUser":"http://usermsc.mscperu.store:8880/checkUser",
+         "ServerPort":"8080",
+         "SSLPort":"443",
+         "USER":"",
+         "PASS":""
+      },
+      {
+         "Name":"IKKI - PREMIUM | 03",
+         "TYPE":"premium",
+         "FLAG":"id.png",
+         "ServerIP":"164.92.132.74",
+         "CheckUser":"http://usermsc.mscperu.store:8880/checkUser",
+         "ServerPort":"8080",
+         "SSLPort":"443",
+         "USER":"",
+         "PASS":""
+      }
+   ],
+   "Networks":[
+      {
+         "Name":"╰[☞ BITEL PAQUETE FACEBOOK",
+         "FLAG":"bitel",
+         "Payload":"",
+         "SNI":"m.twitch.tv",
+         "TlsIP":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "Info":"Ssl"
+      },
+      {
+         "Name":"╰[☞ MOVISTAR(WHATSAPP)",
+         "FLAG":"movistar",
+         "Payload":"",
+         "SNI":"whatsapp.net",
+         "TlsIP":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "Info":"Ssl"
+      },
+      {
+         "Name":"╰[☞ FLASH-MBL(WHATSAPP)",
+         "FLAG":"msc",
+         "Payload":"",
+         "SNI":"whatsapp.net",
+         "TlsIP":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "Info":"Ssl"
+      },
+      {
+         "Name":"╰[☞ FLASH-MBL(TELEGRAM)",
+         "FLAG":"msc",
+         "Payload":"",
+         "SNI":"telegram.org",
+         "TlsIP":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "Info":"Ssl"
+      },
+      {
+         "Name":"╰[☞ BITEL(REDES-TIKTOK)",
+         "FLAG":"bitel",
+         "Payload":"",
+         "SNI":"www.tiktok.com",
+         "TlsIP":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "Info":"Ssl"
+      },
+      {
+         "Name":"╰[☞ BITEL(REDES-WAZE)",
+         "FLAG":"bitel",
+         "Payload":"",
+         "SNI":"www.waze.com",
+         "TlsIP":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "Info":"Ssl"
+      },
+      {
+         "Name":"╰[☞ ENTEL(SIN-REDES BAM)",
+         "FLAG":"msc",
+         "Payload":"CONNECT 164.92.132.74:8080[split] HTTP/1.1 200 Connection established Host: [rotate=gratis.mscperu.xyz;ads.entelplay.pe;youtu.be][crlf][crlf]",
+         "SNI":"",
+         "TlsIP":"",
+         "ProxyIP":"164.92.132.74",
+         "ProxyPort":"3128",
+         "Info":"Proxy"
+      }
+   ]
+}
